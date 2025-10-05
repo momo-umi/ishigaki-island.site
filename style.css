@@ -139,7 +139,7 @@ p{
 /* ファーストビューエリア */
 .FV_section{
 	padding-bottom:800px;
-	background: url(../imagas/FV_photo_PC.jpg) no-repeat center / cover;
+	background: url(imagas/FV_photo_PC.jpg) no-repeat center / cover;
 	height: 100vh;
 	margin-bottom: 100px;
 }
@@ -199,7 +199,7 @@ h2.decoration{
 	content:'';
 	width:60px;
 	height:60px;
-	background-image: url(../imagas/1533702817.png);
+	background-image: url(imagas/1533702817.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -403,5 +403,6 @@ p small{
 	}
 
 	
+
 
 }
