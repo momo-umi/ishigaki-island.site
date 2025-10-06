@@ -1,252 +1,216 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
-    />
-    <script>
-      (function (d) {
-        var config = {
-            kitId: "fga6zqs",
-            scriptTimeout: 3000,
-            async: true,
-          },
-          h = d.documentElement,
-          t = setTimeout(function () {
-            h.className =
-              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-          }, config.scriptTimeout),
-          tk = d.createElement("script"),
-          f = false,
-          s = d.getElementsByTagName("script")[0],
-          a;
-        h.className += " wf-loading";
-        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
-        tk.async = true;
-        tk.onload = tk.onreadystatechange = function () {
-          a = this.readyState;
-          if (f || (a && a != "complete" && a != "loaded")) return;
-          f = true;
-          clearTimeout(t);
-          try {
-            Typekit.load(config);
-          } catch (e) {}
-        };
-        s.parentNode.insertBefore(tk, s);
-      })(document);
-    </script>
-    <title>地域の魅力再発見！石垣島特集</title>
-    <meta
-      name="description"
-      content="ここに説明文が入ります。長くて150文字ぐらい"
-    />
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="header_inner">
-        <div class="header_logo">
-          <a href="index.html">
-            <img
-              class="logo"
-              src="imagas/logo.png"
-              alt="ソコドコ"
-              width="135"
-              hight="26"
-            />
-          </a>
-        </div>
 
-        <nav class="onlyPC">
-          <ul class="header_text">
-            <li><a href="#about">About</a></li>
-            <li><a href="#Recommend">Recommend</a></li>
-            <li><a href="#Infomation">Information</a></li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu">
+  <script>
+    (function (d) {
+      var config = {
+        kitId: "fga6zqs",
+        scriptTimeout: 3000,
+        async: true,
+      },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className =
+            h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a;
+      h.className += " wf-loading";
+      tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+      tk.async = true;
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState;
+        if (f || (a && a != "complete" && a != "loaded")) return;
+        f = true;
+        clearTimeout(t);
+        try {
+          Typekit.load(config);
+        } catch (e) { }
+      };
+      s.parentNode.insertBefore(tk, s);
+    })(document);
+  </script>
+  <title>地域の魅力再発見！石垣島特集</title>
+  <meta name="description" content="ここに説明文が入ります。長くて150文字ぐらい" />
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-        <nav class="gMenu onlySP">
-          <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label class="menu-icon" for="menu-btn">
-            <span class="navicon"></span>
-          </label>
-          <ul class="menu">
-            <li><a href="#about">About</a></li>
-            <li><a href="#Recommend">Recommend</a></li>
-            <li><a href="#Infomation">Information</a></li>
-          </ul>
-        </nav>
+<body>
+  <header class="header">
+    <div class="header_inner">
+      <div class="header_logo">
+        <a href="index.html">
+          <img class="logo" src="imagas/logo.png" alt="ソコドコ" width="135" hight="26" />
+        </a>
       </div>
-      <!--header_inner. flex END-->
-    </header>
-    <div id="wrap">
-      <section class="FV_section">
-        <h1>
-          <a href="index.html">
-            <img
-              class="title_logo"
-              src="imagas/FV_title.png"
-              alt="地域の魅力再発見！石垣島特集"
-            />
-          </a>
-        </h1>
-      </section>
-      <main>
-        <div id="about">
-          <div class="decoration_wrap">
-            <h2 class="decoration">About</h2>
-          </div>
-          <section class="about_inner w-container">
-            <div class="about-flex-wrapper">
-              <img src="imagas/about_photo.jpg" alt="石垣島の地図" />
-              <div class="about_text">
-                <h3>石垣島について</h3>
-                <p>
-                  沖縄本島から南西へ約400㎞の東シナ海に浮かぶ八重山諸島の主島・石垣島。
-                  八重山諸島の経済や観光の中核を担うリゾートシティで、透明度の高い海や、
-                  満天の星空が見られる星空の島として人気を誇っています。
-                </p>
-              </div>
-            </div>
-          </section>
-        </div>
-        <!-- #aboutEND -->
-        <div id="Recommend">
-          <div class="decoration_wrap">
-            <h2 class="decoration">Recommend</h2>
-          </div>
-          <section class="Rec_inner w-container">
-            <div class="card">
-              <img src="imagas/Rec_Photo_1.jpg" alt="ダイビングの写真" />
-              <div class="Rec_text">
-                <h3>コンパクトで観光しやすい</h3>
-                <p>
-                  南部地域の中心地にはホテルや飲食店、お土産物店が立ち並びそこだけでも楽しめちゃう！
-                  また数十分車を郊外に走らせれば大自然も満喫できるので、どちらも十分に堪能することが可能です。
-                </p>
-              </div>
-            </div>
-            <div class="card reverse">
-              <img src="imagas/Rec_Photo_2.jpg" alt="水牛車の写真" />
-              <div class="Rec_text">
-                <h3>離島巡りが楽しめる</h3>
-                <p>
-                  八重山諸島は竹富島、小浜島、西表島、黒島、波照間島などいくつもの離島から成り立っています。
-                  主島の石垣島からのアクセスも抜群で、毎日何便もの往復フェリーが就航しているので、日帰りでの離島巡りや数カ所めぐることも出来ちゃいます！
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="imagas/Rec_Photo_3.jpg" alt="沖縄料理の写真" />
-              <div class="Rec_text">
-                <h3>島料理が美味しい</h3>
-                <p>
-                  沖縄本島とも少し違う独自の文化で発展をしてきた八重山。ここでしか食べられないものもたくさん！
-                  新鮮な魚や、マース煮、天ぷらから、自然豊かな環境で育てられた石垣牛など。また南国フルーツも豊富で、食べ物には困りません！
-                </p>
-              </div>
-            </div>
-          </section>
-        </div>
-        <!-- #Recommend END -->
-        <div id="Infomation">
-          <div class="decoration_wrap">
-            <h2 class="decoration">Information</h2>
-          </div>
-          <div class="w-container">
-            <p class="info_text">
-              石垣市では、石垣島を気に入った人に向けて移住支援も行っています。都会にはない、ゆったりとした時間の中でスローライフを味わってみませんか？
-              いきなり移住はちょっと不安という方に向けて、移住相談会や移住体験ツアーも開催しています。
-            </p>
-            <h4>移住に役立つ情報や<br />お問い合わせはこちら</h4>
-            <div class="info_inner">
-              <div class="info_box">
-                <a href="#">
-                  <h5>石垣市<br />移定支援サイト</h5>
-                  <img
-                    src="imagas/info_no1.jpg"
-                    alt="はじめよう石垣ライフ"
-                    width="1080"
-                    height="922"
-                  />
-                </a>
-              </div>
-              <div class="info_box">
-                <a href="#">
-                  <h5>石垣市<br />空き家バンク制度</h5>
-                  <img
-                    src="imagas/info_no2.jpg"
-                    alt="空き家バンク"
-                    width="1080"
-                    height="922"
-                  />
-                </a>
-              </div>
-              <div class="info_box">
-                <a href="#">
-                  <h5>移住者<br />インタビュー</h5>
-                  <img
-                    src="imagas/info_no3.jpg"
-                    alt="私らしいくらし"
-                    width="1080"
-                    height="922"
-                  />
-                </a>
-              </div>
-            </div>
-            <!-- card_innerEND -->
-            <p class="info_text">
-              また、リゾートバイトを利用して住み込んでみたり、ホテルに長期滞在しながら、休暇とお仕事を両立してみる
-              ワーケーションもオススメ！長期滞在者向けのホテルや、宿泊プラン、コワーキングスペースも充実しているので、
-              まずは働きながら移住トライアルしてみましょう。
-            </p>
-          </div>
-          <!-- w-container -->
 
-          <div class="w-container banner">
-            <a href="#">
-              <img src="imagas/info_banner1.jpg" alt="リゾートバイト.net" />
-            </a>
-            <a href="#">
-              <img
-                src="imagas/info_banner2.jpg"
-                alt="くつろぎのワーケーション石垣島ホテル"
-              />
-            </a>
-          </div>
-        </div>
-        <!-- #InformationEND -->
-      </main>
-      <footer>
-        <div class="w-container footer_inner">
-          <a href="index.html">
-            <img
-              class="logo"
-              src="imagas/logo.png"
-              alt="ソコドコ"
-              width="135"
-              height="26"
-            />
-          </a>
+      <nav class="onlyPC">
+        <ul class="header_text">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Recommend">Recommend</a></li>
+          <li><a href="#Infomation">Information</a></li>
+        </ul>
+      </nav>
 
-          <ul class="flex">
-            <li><a href="#">利用規約</a></li>
-            <li><a href="#">プライバシーポリシー</a></li>
-            <li><a href="#">推薦環境</a></li>
-            <li><a href="#">お問い合わせ</a></li>
-            <li><a href="#">運営会社</a></li>
-          </ul>
-        </div>
-
-        <p><small>&copy; travel info.inc </small></p>
-      </footer>
+      <nav class="gMenu onlySP">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Recommend">Recommend</a></li>
+          <li><a href="#Infomation">Information</a></li>
+        </ul>
+      </nav>
     </div>
-    <!-- #wrapEND -->
-  </body>
-</html>
+    <!--header_inner. flex END-->
+  </header>
+  <div id="wrap">
+    <section class="FV_section">
+      <h1>
+        <a href="index.html">
+          <img class="title_logo" src="imagas/FV_title.png" alt="地域の魅力再発見！石垣島特集" />
+        </a>
+      </h1>
+    </section>
+    <main>
+      <div id="about">
+        <div class="decoration_wrap">
+          <h2 class="decoration">About</h2>
+        </div>
+        <section class="about_inner w-container">
+          <div class="about-flex-wrapper">
+            <img src="imagas/about_photo.jpg" alt="石垣島の地図">
+            <div class="about_text">
+              <h3>石垣島について</h3>
+              <p>
+                沖縄本島から南西へ約400㎞の東シナ海に浮かぶ八重山諸島の主島・石垣島。<br>
+                八重山諸島の経済や観光の中核を担うリゾートシティで、透明度の高い海や、
+                満天の星空が見られる星空の島として人気を誇っています。
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- #aboutEND -->
+      <div id="Recommend">
+        <div class="decoration_wrap">
+          <h2 class="decoration">Recommend</h2>
+        </div>
+        <section class="Rec_inner w-container">
+          <div class="card">
+            <img src="imagas/Rec_Photo_1.jpg" alt="ダイビングの写真">
+            <div class="Rec_text">
+              <h3>コンパクトで観光しやすい</h3>
+              <p>
+                南部地域の中心地にはホテルや飲食店、お土産物店が立ち並びそこだけでも楽しめちゃう！<br>
+                また数十分車を郊外に走らせれば大自然も満喫できるので、どちらも十分に堪能することが可能です。
+              </p>
+            </div>
+          </div>
+          <div class="card reverse">
+            <img src="imagas/Rec_Photo_2.jpg" alt="水牛車の写真">
+            <div class="Rec_text">
+              <h3>離島巡りが楽しめる</h3>
+              <p>
+                八重山諸島は竹富島、小浜島、西表島、黒島、波照間島などいくつもの離島から成り立っています。
+                主島の石垣島からのアクセスも抜群で、毎日何便もの往復フェリーが就航しているので、日帰りでの離島巡りや数カ所めぐることも出来ちゃいます！
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagas/Rec_Photo_3.jpg" alt="沖縄料理の写真">
+            <div class="Rec_text">
+              <h3>島料理が美味しい</h3>
+              <p>
+                沖縄本島とも少し違う独自の文化で発展をしてきた八重山。ここでしか食べられないものもたくさん！
+                新鮮な魚や、マース煮、天ぷらから、自然豊かな環境で育てられた石垣牛など。また南国フルーツも豊富で、食べ物には困りません！
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- #Recommend END -->
+      <div id="Infomation">
+        <div class="decoration_wrap">
+          <h2 class="decoration">Information</h2>
+        </div>
+        <div class="w-container">
+          <p class="info_text">
+            石垣市では、石垣島を気に入った人に向けて<br class="onlySP">移住支援も行っています。<br>
+            都会にはない、ゆったりとした時間の中でスローライフを味わってみませんか？<br>
+            いきなり移住はちょっと不安という方に向けて、<br class="onlySP">移住相談会や移住体験ツアーも開催しています。
+          </p>
+          <h4>移住に役立つ情報や<br class="onlySP">お問い合わせはこちら</h4>
+          <div class="info_inner">
+            <div class="info_box">
+              <a href="#">
+                <h5>石垣市<br>移定支援サイト</h5>
+                <img src="imagas/info_no1.jpg" alt="はじめよう石垣ライフ" width="1080" height="922">
+              </a>
+            </div>
+            <div class="info_box">
+              <a href="#">
+                <h5>石垣市<br>空き家バンク制度</h5>
+                <img src="imagas/info_no2.jpg" alt="空き家バンク" width="1080" height="922">
+              </a>
+            </div>
+            <div class="info_box">
+              <a href="#">
+                <h5>移住者<br>インタビュー</h5>
+                <img src="imagas/info_no3.jpg" alt="私らしいくらし" width="1080" height="922">
+              </a>
+            </div>
+          </div>
+          <!-- card_innerEND -->
+          <p class="info_text2">
+            またリゾートバイトを利用して住み込んでみたり、ホテルに長期滞在しながら、休暇とお仕事を両立してみるワーケーションもオススメ！<br
+              class="onlySP">長期滞在者向けのホテルや宿泊プラン、コワーキングスペースも充実しているので、
+            まずは働きながら移住トライアルしてみましょう。
+          </p>
+        </div>
+        <!-- w-container -->
 
+        <div class="w-container banner">
+          <a href="#">
+            <img src="imagas/info_banner1.jpg" alt="リゾートバイト.net">
+          </a>
+          <a href="#">
+            <img src="imagas/info_banner2.jpg" alt="くつろぎのワーケーション石垣島ホテル">
+          </a>
+        </div>
+      </div>
+      <!-- #InformationEND -->
+    </main>
+    <footer>
+      <div class="w-container footer_inner">
+        <a href="index.html">
+          <img class="logo" src="imagas/logo.png" alt="ソコドコ" width="135" height="26">
+        </a>
+
+        <ul class="flex">
+          <li><a href="#">利用規約</a></li>
+          <li><a href="#">プライバシーポリシー</a></li>
+          <li><a href="#">推薦環境</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+          <li><a href="#">運営会社</a></li>
+        </ul>
+      </div>
+
+      <p><small>&copy; travel info.inc </small></p>
+    </footer>
+  </div>
+  <!-- #wrapEND -->
+</body>
+
+</html>
