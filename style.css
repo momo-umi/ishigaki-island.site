@@ -276,8 +276,9 @@ h5{
 	width: 80%;
 }
 
-.info_box a:hover{
+.info_box:hover{
 	filter: brightness(110%);
+	box-shadow:8px 8px  #008ff6;
 }
 
 h5{
@@ -418,3 +419,4 @@ p small{
 	
 
 }
+
