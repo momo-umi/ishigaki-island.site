@@ -40,8 +40,13 @@
   </script>
   <title>地域の魅力再発見！石垣島特集</title>
   <meta name="description" content="ここに説明文が入ります。長くて150文字ぐらい" />
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <!--↓↓ jQuery 本体 ↓↓-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!--↓↓プラグインファイル↓↓ -->
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/fadein.js"></script>
 </head>
 
 <body>
@@ -108,7 +113,7 @@
           <h2 class="decoration">Recommend</h2>
         </div>
         <section class="Rec_inner w-container">
-          <div class="card">
+          <div class="card fadein">
             <img src="imagas/Rec_Photo_1.jpg" alt="ダイビングの写真">
             <div class="Rec_text">
               <h3>コンパクトで観光しやすい</h3>
@@ -118,7 +123,7 @@
               </p>
             </div>
           </div>
-          <div class="card reverse">
+          <div class="card reverse fadein">
             <img src="imagas/Rec_Photo_2.jpg" alt="水牛車の写真">
             <div class="Rec_text">
               <h3>離島巡りが楽しめる</h3>
@@ -128,7 +133,7 @@
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="card fadein">
             <img src="imagas/Rec_Photo_3.jpg" alt="沖縄料理の写真">
             <div class="Rec_text">
               <h3>島料理が美味しい</h3>
@@ -214,4 +219,3 @@
 </body>
 
 </html>
-
