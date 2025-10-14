@@ -30,6 +30,19 @@ p{
 	font-size: clamp(14px, 2vw, 18px)
 }
 
+/* 画面外にいる状態 */
+.fadein {
+	opacity : 0.1;
+	transform : translate(0, 50px);
+	transition : all 3s;
+	}
+
+/* 画面内に入った状態 */
+.fadein.scrollin {
+	opacity : 1;
+	transform : translate(0, 0);
+	}
+
 /*-- ハンバーガーメニュー --*/
 
 /* メニューを画面上部に固定表示しています */
@@ -419,4 +432,5 @@ p small{
 	
 
 }
+
 
